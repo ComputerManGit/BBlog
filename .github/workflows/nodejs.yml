@@ -1,8 +1,8 @@
-name: bblog
+name: GitHub Actions Build and Deploy Demo
 on:
   push:
     branches:
-      - dev
+      - master
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
