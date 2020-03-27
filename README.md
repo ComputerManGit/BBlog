@@ -1,4 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is bblog 
+
+### 运行项目：
+```shell script
+yarn && yarn start
+```
+
+
 
 ## Available Scripts
 
