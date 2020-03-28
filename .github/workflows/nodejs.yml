@@ -1,8 +1,9 @@
 name: GitHub Actions Build and Deploy Demo
 on:
   push:
-    branches:
-      - master,dev
+    branches: [ master,dev ]
+  pull_request:
+    branches: [ master,dev ]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
